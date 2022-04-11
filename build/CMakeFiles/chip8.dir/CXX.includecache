@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mark/chip8/src/platform.cpp
+platform.h
+/home/mark/chip8/src/platform.h
+SDL2/SDL.h
+/home/mark/chip8/src/SDL2/SDL.h
+
+/home/mark/chip8/src/platform.h
+cstdint
+-
+SDL2/SDL.h
+/home/mark/chip8/src/SDL2/SDL.h
+
